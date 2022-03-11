@@ -15,6 +15,11 @@
            fetch="https://gitlab.com/rockstar5495"
 	   revision="12" />
 
+  <!-- Devices Git -->
+  <remote  name="ProjectBlaze-Devices"
+           fetch="https://github.com/"
+           revision="12.1" />
+
   <!-- Rootdir -->
   <project path="art" name="art" groups="pdk" remote="blaze" />
   <project path="bionic" name="bionic" groups="pdk" remote="blaze" />
