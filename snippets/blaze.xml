@@ -78,6 +78,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="blaze" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="blaze" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="blaze" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="blaze" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="blaze" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="blaze" />
