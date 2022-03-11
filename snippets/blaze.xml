@@ -62,7 +62,6 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="blaze" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="blaze" />
 
@@ -88,7 +87,6 @@
   <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
   <project path="system/netd" name="system_netd" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
-  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="blaze" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="blaze" />
 
   <!-- Vendor -->
