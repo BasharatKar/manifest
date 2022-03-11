@@ -102,7 +102,7 @@
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
-  <project path="packages/modules/Permission" name="packages_services_Permission" remote="blaze" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaze" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaze" />
