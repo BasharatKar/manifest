@@ -90,6 +90,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="blaze" />
   <project path="hardware/oneplus" name="hardware_oneplus" remote="blaze" />
   <project path="hardware/motorola" name="hardware_motorola" remote="blaze" />
+  <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" remote="blaze" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="blaze" />
 
   <!-- Packages -->
@@ -132,6 +133,7 @@
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
   <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" groups="qcom,pdk-qcom" remote="blaze" />
 
 </manifest>
