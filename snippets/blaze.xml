@@ -73,6 +73,14 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="blaze" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="blaze" />
 
+  <!-- Hardware HALs -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_audio_msm8996" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display_msm8996" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_media_msm8996" groups="qcom,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="blaze" />
+
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="blaze" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="blaze" />
