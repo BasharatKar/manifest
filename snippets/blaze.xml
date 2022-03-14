@@ -128,6 +128,7 @@
   <project path="system/bpf" name="system_bpf" remote="blaze" />
   <project path="system/nfc" name="system_nfc" remote="blaze" />
   <project path="system/extras" name="system_extras" remote="blaze" />
+  <project path="system/update_engine" name="system_update_engine" remote="blaze" />
 
   <!-- Vendor -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
