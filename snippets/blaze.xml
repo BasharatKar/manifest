@@ -132,5 +132,6 @@
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
   <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" groups="qcom,pdk-qcom" remote="blaze" />
 
 </manifest>
