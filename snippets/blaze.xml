@@ -86,6 +86,15 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_audio_sdm845" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
   <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_display_sdm845" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
   <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom-caf_media_sdm845" groups="qcom,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_audio_sm8150" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_display_sm8150" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media_sm8150" groups="qcom,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_audio_sm8250" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_display_sm8250" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_media_sm8250" groups="qcom,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_audio_sm8350" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_display_sm8350" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_media_sm8350" groups="qcom,pdk-qcom" remote="blaze" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="blaze" />
