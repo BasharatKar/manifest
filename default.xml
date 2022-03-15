@@ -1104,6 +1104,5 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/blaze.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/arrow.xml" />
 
 </manifest>
