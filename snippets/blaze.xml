@@ -74,29 +74,6 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="blaze" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="blaze" />
 
-  <!-- Hardware HALs -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_audio_msm8996" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display_msm8996" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_media_msm8996" groups="qcom,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_audio_sdm660" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_display_sdm660" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_media_sdm660" groups="qcom,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_audio_sdm845" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_display_sdm845" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom-caf_media_sdm845" groups="qcom,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_audio_sm8150" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_display_sm8150" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media_sm8150" groups="qcom,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_audio_sm8250" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_display_sm8250" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_media_sm8250" groups="qcom,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_audio_sm8350" groups="qcom,qcom_audio,pdk-qcom" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_display_sm8350" groups="pdk-qcom,qcom,qcom_display" remote="blaze" />
-  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_media_sm8350" groups="qcom,pdk-qcom" remote="blaze" />
-
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="blaze" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="blaze" />
@@ -113,26 +90,19 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="blaze" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="blaze" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="blaze" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="blaze" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="blaze" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="blaze" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaze" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" />
-  <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaze" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaze" />
-  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="blaze" />
   
-
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
   <project path="system/netd" name="system_netd" remote="blaze" />
