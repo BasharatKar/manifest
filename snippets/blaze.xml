@@ -102,6 +102,7 @@
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaze" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="blaze" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaze" />	
   
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
